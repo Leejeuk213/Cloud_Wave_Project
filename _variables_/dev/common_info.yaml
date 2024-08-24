@@ -1,0 +1,4 @@
+---
+# Application Settings
+env: dev
+service_name: test

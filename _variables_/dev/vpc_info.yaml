@@ -1,0 +1,51 @@
+# VPC
+cidr_block_vpc: 172.21.0.0/16
+vpc_name: test-vpc
+
+# VPC - Subnet
+cidr_blocks_public:
+  public_a:
+    subnet_name: test-public-a
+    cidr_block: 172.21.0.0/22
+    availability_zone: ap-northeast-2a
+  public_b:
+    subnet_name: test-public-b
+    cidr_block: 172.21.4.0/22
+    availability_zone: ap-northeast-2b
+  public_c:
+    subnet_name: test-public-c
+    cidr_block: 172.21.8.0/22
+    availability_zone: ap-northeast-2c
+
+cidr_blocks_private:
+  private_a:
+    subnet_name: test-private-a
+    cidr_block: 172.21.12.0/22
+    availability_zone: ap-northeast-2a
+  private_b:
+    subnet_name: test-private-b
+    cidr_block: 172.21.16.0/22
+    availability_zone: ap-northeast-2b
+  private_c:
+    subnet_name: test-private-c
+    cidr_block: 172.21.20.0/22
+    availability_zone: ap-northeast-2c
+
+cidr_blocks_private_db:
+  private_db_a:
+    subnet_name: test-private-db-a
+    cidr_block: 172.21.24.0/22
+    availability_zone: ap-northeast-2a
+  # private_db_b:
+  #   subnet_name: test-private-db-b
+  #   cidr_block: 172.21.28.0/22
+  #   availability_zone: ap-northeast-2b
+  # private_db_c:
+  #   subnet_name: dobby-private-db-c
+  #   cidr_block: 172.21.32.0/22
+  #   availability_zone: ap-northeast-2c
+
+# private_to_public_map:
+#   private_a: public_a
+#   private_b: public_b
+#   private_c: public_c
