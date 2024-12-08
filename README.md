@@ -40,9 +40,20 @@ ALB Controller는 AWS ALB Controller 사용하여 Ingress 설정하였다.
 
 ![](./terraform.png)  
 
-## Kube ops view 사용 Karpenter 작동 확인
+## Kube ops view 사용 Karpenter TEST
 
-![](./kubeopsview.gif)
+![](./kubeopsview.gif)  
+
+## Multi Region 아키텍처  
+
+![](./mldr.PNG)  
+
+## Global Accelorator TEST  
+
+Grafana Dashboard를 사용하여 트래픽이 잘 가는지 또 전환이 되는지 확인하였다.  
+
+![](./서울.PNG)
+![](./도쿄전환.PNG)  
 
 
 ## 전체 프로젝트 아키텍처
